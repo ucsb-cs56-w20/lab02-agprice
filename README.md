@@ -23,4 +23,4 @@ modified for use in UCSB CMPSC 56.
 | `mvn test` | Runs one sucessful test |
 | `mvn package` | Builds the jar file `target/gs-spring-boot-0.1.0.jar` |
 | `java -jar target/gs-spring-boot-0.1.0.jar` | If done after `mvn package`, runs the code to startup a web server.  Access it via `http://localhost:8080` on the *same machine* where the server is running.  Use CTRL/C to stop it. |
-| `mvn springboot:run` | Runs the springboot locally |
+| `mvn springboot:run` | Runs springboot on localhost |
